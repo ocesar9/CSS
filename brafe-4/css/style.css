@@ -196,3 +196,39 @@ body {
   margin-top: 80px;
 }
 
+@media (min-width: 740px) and (max-width:980px) {
+  .container{
+    max-width: 720px;
+  }
+
+  .filter {
+    width: 220px;
+  }
+
+  .products {
+    width: 460px;
+  }
+
+  .products li {
+    width: 220px;
+  }
+}
+
+@media (max-width: 739px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .filter {
+    display: none;
+  }
+
+  .products {
+    width: 300px;
+  }
+
+  .products li {
+    width: 140px;
+  }
+}
+
