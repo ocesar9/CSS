@@ -20,27 +20,27 @@ com que os filhos diretos se comportem como elementos flex */
 
 /* Define a direção dos itens filho */
 .container {
-	flex-direction: row | row-reverse | column | column-reverse;
+	/* flex-direction: row | row-reverse | column | column-reverse; */
 }
 
 /* Define se a linha quebra ou não */
 .container{
-  flex-wrap: nowrap | wrap | wrap-reverse;
+  /* flex-wrap: nowrap | wrap | wrap-reverse; */
 }
 
 /* Define a distribuição horizontal do conteúdo */
 .container{
-  justify-content: flex-start | flex-end | center | space-between | space-around;
+  /* justify-content: flex-start | flex-end | center | space-between | space-around; */
 }
 
 /* Define o alinhamento dos itens */
 .container {
-  align-items: flex-start | flex-end | center | baseline | stretch;
+  /* align-items: flex-start | flex-end | center | baseline | stretch; */
 }
 
 /* Define a distribuição vertical do conteúdo */
 .container {
-  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+  /* align-content: flex-start | flex-end | center | space-between | space-around | stretch; */
 }
 
 /* ITEMS */
@@ -62,15 +62,15 @@ com que os filhos diretos se comportem como elementos flex */
 
 /* Define um valor base para o item */
 .item {
-  flex-basis: 200px | auto; /* default auto */
+  /* flex-basis: 200px | auto; default auto  */
 }
 
 /* Atalhos para os itens acima */
 .item {
-  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  /* flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] */
 }
 
 /* Define o alinhamento do item */
 .item {
-  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+  /* align-self: auto | flex-start | flex-end | center | baseline | stretch; */
 }
