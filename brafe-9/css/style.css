@@ -250,11 +250,39 @@ a {
     background: #252525;
     border-radius: 4px;
   }
+
+  .produtos {
+    width: 100%;
+  }
+
+  .produtos h1 {
+    float: none;
+  }
+
+  .adicionar-produtos{
+    float: none;
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+  .produtos-item img {
+    float: none;
+  }
+
+  .produtos-item ul {
+    float: none;
+    width: 100%;
+  }
+
 }
 
 @media (min-width: 740px) and (max-width:980px){
   .side-nav {
     width: 200px;
+  }
+
+  .produtos {
+    width: calc(100% - 200px);
   }
 
 }
